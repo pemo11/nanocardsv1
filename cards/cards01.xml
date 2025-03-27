@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flashcards name="Programmiergrundlagen">
+  <card>
+    <question>Was ist Python?</question>
+    <answer>Python ist eine interpretierte, objektorientierte, high-level Programmiersprache mit dynamischer Semantik.</answer>
+  </card>
+  <card>
+    <question>Was ist ein Docker-Container?</question>
+    <answer>Ein Docker-Container ist eine standardisierte Einheit an Software, die Code und alle Abhängigkeiten verpackt, damit die Anwendung schnell und zuverlässig in verschiedenen Umgebungen läuft.</answer>
+  </card>
+  <card>
+    <question>Was ist FastAPI?</question>
+    <answer>FastAPI ist ein modernes, schnelles Web-Framework für die Erstellung von APIs mit Python 3.7+ basierend auf Standard-Python-Type-Hints.</answer>
+  </card>
+  <card>
+    <question>Was ist Firebase?</question>
+    <answer>Firebase ist eine von Google entwickelte Plattform zur Entwicklung von Web- und Mobilanwendungen, die verschiedene Dienste wie Datenbank, Authentifizierung und Hosting bietet.</answer>
+  </card>
+  <card>
+    <question>Was ist Tailwind CSS?</question>
+    <answer>Tailwind CSS ist ein Utility-First CSS-Framework, das es ermöglicht, benutzerdefinierte Designs zu erstellen, ohne jemals Ihr HTML zu verlassen.</answer>
+  </card>
+</flashcards>

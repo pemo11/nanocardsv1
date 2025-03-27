@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/app:/app
+      - ./firebase-key.json:/app/firebase-key.json  # Firebase-Schlüsseldatei
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/firebase-key.json
+
+  frontend:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html
+    depends_on:
+      - backend
