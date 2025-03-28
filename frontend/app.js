@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // API-Endpunkt
-    const API_URL = 'http://localhost:8000';
-    
+    // const API_URL = 'http://localhost:8000';
+    const API_URL = 'https://nanocardsv1-q6y8f.ondigitalocean.app';
     // DOM-Elemente
     const fileUpload = document.getElementById('file-upload');
     const fileName = document.getElementById('file-name');
