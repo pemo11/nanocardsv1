@@ -12,10 +12,18 @@ import json
 
 app = FastAPI(title="Flashcard API")
 
+# Ersetze diese URLs durch deine tatsächlichen URLs
+origins = [
+    "https://nanocards-client1-kd5ru.ondigitalocean.app/",  # Deine Frontend Digital Ocean URL
+    "http://localhost",                                     # Für lokale Entwicklung
+    "http://localhost:8000",
+    "https://nanoquiz.de"                                   # Falls du eine eigene Domain nutzt
+]
+
 # CORS konfigurieren
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In Produktion einschränken
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
